@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - UwU Terrenos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo-uwu.png" alt="UwU Logo">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="terrenos.html">Terrenos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <a href="tel:+521234567890"><i class="fas fa-phone"></i> +52 123 456 7890</a>
+                <button class="btn-contact">Contáctanos</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="contact-page">
+        <section class="contact-hero">
+            <div class="container">
+                <h1>¿Listo para Invertir?</h1>
+                <p>Contáctanos hoy y descubre cómo podemos ayudarte a encontrar el terreno perfecto para tu proyecto.</p>
+            </div>
+        </section>
+
+        <section class="contact-details">
+            <div class="container">
+                <div class="contact-container">
+                    <div class="contact-info-section">
+                        <h2>Información de Contacto</h2>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Dirección</h3>
+                                <p>Av. Real Estate 123, Col. Centro</p>
+                                <p>Ciudad, Estado, CP 12345</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h3>Teléfono</h3>
+                                <p>+52 (123) 456-7890</p>
+                                <p>+52 (123) 456-7891</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>info@uwu-terrenos.com</p>
+                                <p>ventas@uwu-terrenos.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Horarios</h3>
+                                <p>Lun - Vie: 9:00 AM - 6:00 PM</p>
+                                <p>Sáb: 9:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="help-box">
+                            <i class="fas fa-question-circle"></i>
+                            <div>
+                                <h3>¿Necesitas ayuda inmediata?</h3>
+                                <p>Nuestro equipo está listo para atenderte y resolver todas tus dudas.</p>
+                            </div>
+                            <button class="btn-call">Llamar Ahora</button>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-section">
+                        <h2>Envíanos un Mensaje</h2>
+                        <form action="#" method="POST">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo">
+                                </div>
+                                <div class="form-group">
+                                    <label for="telefono">Teléfono</label>
+                                    <input type="tel" id="telefono" name="telefono" placeholder="Tu número de teléfono">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="tu@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="tipo_terreno">Tipo de Terreno</label>
+                                <select id="tipo_terreno" name="tipo_terreno">
+                                    <option>Selecciona una opción</option>
+                                    <option value="residencial">Residencial</option>
+                                    <option value="comercial">Comercial</option>
+                                    <option value="industrial">Industrial</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos sobre tu proyecto y qué tipo de terreno buscas..."></textarea>
+                            </div>
+                            <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        </footer>
+    
+</body>
+</html>

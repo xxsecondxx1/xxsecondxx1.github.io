@@ -1,24 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UwU - Venta de Terrenos | Encuentra tu Terreno Ideal</title>
-    <meta name="description" content="Descubre las mejores oportunidades de inversión en terrenos. Lotes residenciales, comerciales e industriales con títulos limpios y financiamiento disponible." />
-    <meta name="author" content="Lovable" />
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Terreno Ideal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo-uwu.png" alt="UwU Logo">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="terrenos.html">Terrenos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <a href="tel:+521234567890"><i class="fas fa-phone"></i> +52 123 456 7890</a>
+                <button class="btn-contact">Contáctanos</button>
+            </div>
+        </div>
+    </header>
 
-    <meta property="og:title" content="uwu-land-deals" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <main>
+        <section class="hero" style="background-image: url('images/hero-background.JPG');">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Tu Terreno <br><span class="highlight">Ideal Te Espera</span></h1>
+                    <p>Descubre las mejores oportunidades para invadir terrenos. Desde lotes residenciales hasta propiedades comerciales e industriales.</p>
+                    <div class="hero-actions">
+                        <button class="btn-primary"onclick="location.href='terrenos.html'">Ver Terrenos Disponibles <i class="fas fa-arrow-right"></i></button>
+                        <button class="btn-secondary"onclick="location.href='contacto.html'">Solicitar Información</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+        <section class="stats">
+            <div class="container">
+                <div class="stat-item">
+                    <img src="images/icon-sold.png" alt="Icono de Terrenos Vendidos">
+                    <h2>500+</h2>
+                    <p>Terrenos Vendidos</p>
+                </div>
+                <div class="stat-item">
+                    <img src="icon-clients.png" alt="Icono de Clientes Satisfechos">
+                    <h2>1,200+</h2>
+                    <p>Clientes Satisfechos</p>
+                </div>
+                <div class="stat-item">
+                    <img src="icon-experience.png" alt="Icono de Años de Experiencia">
+                    <h2>15+</h2>
+                    <p>Años de Experiencia</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="main-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <div class="logo">
+                    <img src="images/logo-uwu.png" alt="UwU Logo">
+                    
+                </div>
+                <p>Tu socio confiable en la venta de terrenos. Más de 1 dia ayudando a familias y empresas a encontrar el terreno perfecto para sus proyectos.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+            <div class="footer-section links">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#">Terrenos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section contact">
+                <h3>Contacto</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Av. Real Estate 123, Centro</li>
+                    <li><i class="fas fa-phone-alt"></i> +52 (123) 456-7890</li>
+                    <li><i class="fas fa-envelope"></i> info@uwu-terrenos.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <p>&copy; 2024 UwU Terrenos. Todos los derechos reservados.</p>
+            <div class="legal-links">
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Términos y Condiciones</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</body>
 </html>

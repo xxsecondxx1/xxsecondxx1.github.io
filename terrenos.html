@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terrenos Disponibles - UwU</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo-uwu.png" alt="UwU Logo">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="terrenos.html" class="active">Terrenos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <a href="tel:+521234567890"><i class="fas fa-phone"></i> +52 123 456 7890</a>
+                <button class="btn-contact">Contáctanos</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="terrenos-page">
+        <section class="terrenos-hero">
+            <div class="container">
+                <h1>Terrenos Disponibles</h1>
+                <p>Encuentra el terreno perfecto para tu próximo proyecto. Tenemos opciones residenciales, comerciales e industriales.</p>
+            </div>
+        </section>
+
+        <section class="filter-section">
+            <div class="container">
+                <div class="filter-bar">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Buscar terrenos...">
+                    </div>
+                    <select class="filter-select">
+                        <option>Tipo de terreno</option>
+                        <option>Residencial</option>
+                        <option>Comercial</option>
+                        <option>Industrial</option>
+                    </select>
+                    <select class="filter-select">
+                        <option>Todos</option>
+                        <option>Destacados</option>
+                    </select>
+                    <button class="btn-filter-more"><i class="fas fa-filter"></i> Más Filtros</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="terrenos-grid-section">
+            <div class="container">
+                <div class="terrenos-grid">
+                    <div class="terreno-card">
+                        <div class="card-image-container">
+                            <img src="images/land-1.jpg" alt="Terreno Residencial Los Pinos">
+                            <span class="badge badge-residential">Residencial</span>
+                            <span class="badge badge-featured">Destacado</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Terreno Residencial Los Pinos</h3>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Zona Norte, Ciudad</p>
+                            <div class="card-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-chart-area"></i>
+                                    <span>1,200 m²</span>
+                                </div>
+                                <div class="price">
+                                    <span>$24,500</span>
+                                </div>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn-details">Ver Detalles</button>
+                                <button class="btn-contact-card">Contactar</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="terreno-card">
+                        <div class="card-image-container">
+                            <img src="images/land-2.jpg" alt="Lote Comercial Centro">
+                            <span class="badge badge-commercial">Comercial</span>
+                            <span class="badge badge-featured">Destacado</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Lote Comercial Centro</h3>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Av. Principal, Centro</p>
+                            <div class="card-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-chart-area"></i>
+                                    <span>800 m²</span>
+                                </div>
+                                <div class="price">
+                                    <span>$45,800</span>
+                                </div>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn-details">Ver Detalles</button>
+                                <button class="btn-contact-card">Contactar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="terreno-card">
+                        <div class="card-image-container">
+                            <img src="images/land-3.jpg" alt="Terreno Industrial">
+                            <span class="badge badge-industrial">Industrial</span>
+                            <span class="badge badge-featured">Destacado</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Terreno Industrial</h3>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Parque Industrial Norte</p>
+                            <div class="card-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-chart-area"></i>
+                                    <span>5,000 m²</span>
+                                </div>
+                                <div class="price">
+                                    <span>$80,500 </span>
+                                </div>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn-details">Ver Detalles</button>
+                                <button class="btn-contact-card">Contactar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="main-footer">
+        </footer>
+
+</body>
+</html>
